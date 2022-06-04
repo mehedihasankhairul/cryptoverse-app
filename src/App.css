@@ -301,9 +301,11 @@ a:hover{
 width: 70%;
 }
 
-.news-image-container .img{
-    width:100px;
-    height:100px;
+.news-image-container img{
+    width:120px !important;
+    height:120px !important;
+    border-radius: 10px !important;
+    box-shadow: #001529 0px 0px 10px 0px !important;
 }
 .news-card p{
     color: black;

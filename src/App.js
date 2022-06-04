@@ -14,16 +14,16 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Routes >
-              <Route exact path="/" element={Homepage} />
-              <Route exact path="/exchanges" element={Exchanges} />
-              <Route exact path="/cryptocurrencies" element={Cryptocurrencies} />
-              <Route exact path="/crypto/:coinId" element={CryptoDetails} />
-              <Route exact path="/news" element={News} />
+              <Route exact path="/" element={<Homepage />} />
+              <Route exact path="/exchanges" element={<Exchanges />} />
+              <Route exact path="/cryptocurrencies" element={<Cryptocurrencies />} />
+              <Route exact path="/crypto/:coinId" element={<CryptoDetails />} />
+              <Route exact path="/news" element={<News />} />
             </Routes>
           </div>
         </Layout>
-        <div className="footer" style={{ textAlign: 'center' }}>
-          <Typography.Title level={5} style={{ color: 'white' }}>
+        <div className="footer">
+          <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
             Cryptoverse <br />
             All rights reserved
           </Typography.Title>
