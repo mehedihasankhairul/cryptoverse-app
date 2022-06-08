@@ -9,13 +9,13 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
   const coinTimestamp = [];
   // console.log(coinHistory);
 
-  for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
-    coinPrice.push(coinHistory?.data?.history[i].price);
-  }
+  // for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
+  //   coinPrice.push(coinHistory?.data?.history[i].price);
+  // }
 
-  for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
-    coinTimestamp.push(new Date(coinHistory?.data?.history[i].timestamp).toLocaleDateString());
-  }
+  // for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
+  //   coinTimestamp.push(new Date(coinHistory?.data?.history[i].timestamp).toLocaleDateString());
+  // }
 
   // const data = {
   //   labels: coinTimestamp,
